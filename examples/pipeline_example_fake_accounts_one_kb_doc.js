@@ -6,7 +6,7 @@ pipeline = [
         "gender": fakeValueFromList(["one","two","three","four"]),                             // Random gender from 4 values
         "age": fakePaddedNumberAsText(2),
         "race": fakeValueFromListWeighted (["NATIVE HAWAIIAN OR PACIFIC ISLANDER","NATIVE AMERICAN OR ALASKA NATIVE",
-        	"SOME OTHER RACE","TWO ORE MORE RACES","ASIAN","BLACK OR AFRICAN AMERICAN","HISPANIC AND LATINO","WHITE"]),
+        	"SOME OTHER RACE","TWO OR MORE RACES","ASIAN","BLACK OR AFRICAN AMERICAN","HISPANIC AND LATINO","WHITE"]),
         "marital_status": fakeValueFromList(["MARRIED", "SINGLE", "DIVORCED", "OTHER"]), 
         "legal_status": fakeValueFromListWeighted(["UNKOWN","VISA","PERMANENT_RESIDENT","CITIZEN"]),
         "dependent_count": fakeNumberBounded(0,5),
