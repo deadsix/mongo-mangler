@@ -43,6 +43,6 @@ pipeline = [
         "safe_location": fakeLocationWithCoordinates(),                                        // Random place with name, id and geo coordinates
         "records": fakeListOfSubDocs(4, ["BLUE", "RED", "GREEN", "PURPLE", "ORANGE", "PINK"]), // Array of 4 random subdocuments
         "attrition_flag": fakeBooleanWeighted(15),
-        "make_doc_larger": "a"*1000000
+        "make_doc_larger": "a"*1050000
     }},
 ]
